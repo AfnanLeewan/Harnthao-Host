@@ -18,7 +18,7 @@ function App() {
     <div className={classes.App}>
         <Header/>
         <Card order={dummy} amount={orderAmount} person={dummyperson}/>
-        <footer><p>Harnthao1.0</p><p>Create By Afnan</p></footer>
+        <footer><p>Harnthao1.0.3</p><p>Create By Afnan</p></footer>
     </div>
   );
 }

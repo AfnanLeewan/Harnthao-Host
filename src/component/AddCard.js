@@ -22,10 +22,10 @@ const AddCard = (props) => {
     <React.Fragment>
       <div className={classes.header}>
         <span className={addp ? classes.select : classes.control}>
-          <button onClick={onaddperson}>ADD person</button>
+          <button onClick={onaddperson}>Person</button>
         </span>
         <span className={addo ? classes.select : classes.control}>
-          <button onClick={onaddorder}>ADD Order</button>
+          <button onClick={onaddorder}>Order</button>
         </span>
       </div>
       <form>

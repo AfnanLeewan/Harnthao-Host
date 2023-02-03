@@ -2,12 +2,12 @@
     display: flex;
     justify-content: space-around;
     border: 2px solid #022B3A;
-    margin: 2rem;
+    margin: 1rem;
     border-radius: 15px;
     font-size: larger;
 }
 .text{
-    font-size: 40px;
+    font-size: 20px;
 
 
 
