@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.79850609.css",
-    "main.js": "/react-gh-pages/static/js/main.f7b945a1.js",
-    "static/js/787.3478e0f3.chunk.js": "/react-gh-pages/static/js/787.3478e0f3.chunk.js",
-    "index.html": "/react-gh-pages/index.html",
-    "main.79850609.css.map": "/react-gh-pages/static/css/main.79850609.css.map",
-    "main.f7b945a1.js.map": "/react-gh-pages/static/js/main.f7b945a1.js.map",
-    "787.3478e0f3.chunk.js.map": "/react-gh-pages/static/js/787.3478e0f3.chunk.js.map"
+    "main.css": "/Harnthao-Host/static/css/main.79850609.css",
+    "main.js": "/Harnthao-Host/static/js/main.91d50e2d.js",
+    "static/js/787.3478e0f3.chunk.js": "/Harnthao-Host/static/js/787.3478e0f3.chunk.js",
+    "index.html": "/Harnthao-Host/index.html",
+    "main.79850609.css.map": "/Harnthao-Host/static/css/main.79850609.css.map",
+    "main.91d50e2d.js.map": "/Harnthao-Host/static/js/main.91d50e2d.js.map",
+    "787.3478e0f3.chunk.js.map": "/Harnthao-Host/static/js/787.3478e0f3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.79850609.css",
-    "static/js/main.f7b945a1.js"
+    "static/js/main.91d50e2d.js"
   ]
 }
