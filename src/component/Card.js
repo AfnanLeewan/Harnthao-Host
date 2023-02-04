@@ -119,7 +119,9 @@ return count
     );
 
   };
-
+  const personOnCheckhandler=(name)=>{
+    console.log(name)
+  }
   const sum = orlist.reduce((acc, obj) => acc + obj.price, 0);
   const personNum = Object.keys(perlist).length;
   const orderNum = Object.keys(orlist).length;
@@ -164,6 +166,7 @@ return count
         <AddCard
           onCheckhandler={onCheckhandler}
           perlist={perlist}
+          orlist={orlist}
           addper={addper}
           onChange={addperson}
           onClick={submitaddperson}
@@ -173,6 +176,7 @@ return count
           onChangeor={addorder}
           onChangepr={addprice}
           onClickor={submitaddorder}
+          personOnCheckhandler={personOnCheckhandler}
         />
       )}
       <Track amount={orderNum} person={personNum} total={sum} />

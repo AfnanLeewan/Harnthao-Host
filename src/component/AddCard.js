@@ -35,8 +35,9 @@ const AddCard = (props) => {
   );
   const checkhandler=(checkname)=>{
     props.onCheckhandler(checkname)
-    console.log('check')
-    console.log(checkname)
+  }
+  const checkpersonhandler=(checkname)=>{
+    props.personOnCheckhandler(checkname)
   }
   return (
     <Modal onClose={props.onClose}>
@@ -46,7 +47,9 @@ const AddCard = (props) => {
           addper={props.addper}
           onChange={props.onChange}
           onClick={props.onClick}
-          ordername={props.ordername}
+          perlist={props.perlist}
+          checkname={checkpersonhandler}
+          orlist={props.orlist}
         />
         :
         <AddOrder
